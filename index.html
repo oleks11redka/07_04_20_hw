@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <title>Nike</title>
+</head>
+
+<body>
+    <main class="nike">
+        <div class="nike__left">
+            <img class="nike__logo" src="images/logo.png" alt="nike-logo">
+            <img class="nike__image" src="images/nike.png" alt="nike-sneaker">
+        </div>
+        <div class="nike__right">
+            <div class="nike_desc">
+                <h1 class="nike__title">Nike SB Stefan Janoski Max</h1>
+                <p class="nike__text">Unisex Skateboarding Shoe</p>
+            </div>
+            <form action="" class="nike__form">
+                <div class="nike__stars">
+                    <img class="star-checked" src="images/star_checked.png" alt="">
+                    <img class="star-checked" src="images/star_checked.png" alt="">
+                    <img class="star-checked" src="images/star_checked.png" alt="">
+                    <img src="images/star_unchecked.png" alt="">
+                    <img src="images/star_unchecked.png" alt="">
+                </div>
+                <div class="nike__selects">
+                    <select name="Size" id="size">
+                        <option value="" hidden disabled selected>Size</option>
+                        <option value="38">38</option>
+                        <option value="39">39</option>
+                        <option value="40">40</option>
+                        <option value="41">41</option>
+                        <option value="42">42</option>
+                        <option value="43">43</option>
+                        <option value="44">44</option>
+                    </select>
+                    <select name="Qty" id="qty">
+                        <option value="" hidden disabled selected>Qty</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <input class="nike_submit-button" type="submit" value="Add to cart">
+                <div class="nike__color">
+                    <input type="radio" id="black" name="color" value="black">
+                    <label for="black"></label>
+                    <input type="radio" id="white" name="color" value="white">
+                    <label for="white"></label>
+                    <input type="radio" id="red" name="color" value="red">
+                    <label for="red"></label>
+                    <input type="radio" id="blue" name="color" value="blue">
+                    <label for="blue"></label>
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+
+</html>
